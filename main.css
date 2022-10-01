@@ -1,0 +1,137 @@
+body {
+  background-color: #1F1919;
+  font-family: HelveticaNeueCyr;
+}
+
+* {
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.section {
+  width: 100vw;
+}
+
+/* TOP START */
+
+.top_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_left {
+  margin-left: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: inline-block;
+}
+
+.top_text {
+  text-decoration: none;
+  width: 450px;
+  margin: 5%;
+}
+
+.top_main_text {
+  color: #1f1919;
+  font-family: Artegra Sans Extended;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 47px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, -1px -1px 0 #fff;
+  letter-spacing: 4px;
+  transition: all .5s;
+  
+}
+
+.top_about_text {
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: #D2284D;
+}
+
+.top_link_text {
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 18px;
+  color: #878787;
+}
+
+.top_right {
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: inline-block;
+}
+
+.top_right img {
+  width: 220px;
+}
+
+/* TOP END */
+
+/* ABOUT START */
+
+.about {
+  background-color: #bb4c65;
+  position: relative;
+}
+
+.about_background{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: url(/media/about.svg) no-repeat 100% 100%;
+  background-size: auto 100%;
+}
+
+.about h2 {
+  font-family: 'Artegra Sans Extended';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 44px;
+  text-transform: uppercase;
+
+  color: #E9E9E9;
+}
+
+.timer_markup {
+  position: absolute;
+  width: 2px;
+}
+
+.timer_item {
+  display: flex;
+  align-items: baseline;
+}
+
+.timer_point {
+  display: inline-block
+}
+
+.timer_date {
+  display: inline-block
+}
+
+.timer_text {
+  display: inline-block
+}
+
+/* ABOUT END */
