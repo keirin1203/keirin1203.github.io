@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -18,15 +18,20 @@ body {
 
 /* TOP START */
 
+.top {
+  padding: 133px 0;
+  position: relative;
+}
+
 .top_wrapper {
   display: flex;
   justify-content: space-between;
 }
 
 .top_left {
-  margin-left: 10%;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   display: inline-block;
 }
 
@@ -87,18 +92,28 @@ body {
 /* ABOUT START */
 
 .about {
-  background-color: #bb4c65;
+  padding: 132px 0 128px;
   position: relative;
+  background-color: #bb4c65;
+}
+
+.about h2 {
+  margin-bottom: 39px;
+}
+
+.about_wrapper {
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 .about_background{
   position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background: url(/media/about.svg) no-repeat 100% 100%;
-  background-size: auto 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: url(  media/about.svg) center;
+    background-size: cover;
 }
 
 .about h2 {
@@ -114,24 +129,56 @@ body {
 
 .timer_markup {
   position: absolute;
-  width: 2px;
+    width: 2px;
+    background: #C95C73;
+    top: 0;
+    left: 4px;
+    bottom: 0;  
+}
+
+.timer {
+  position: relative;
 }
 
 .timer_item {
+  padding-left: 38px;
   display: flex;
   align-items: baseline;
+  color: #fff;
+  font-size: 24px;
+  line-height: 40px;
+  position: relative;
+  margin-bottom: 45px;
 }
 
 .timer_point {
-  display: inline-block
+  position: absolute;
+  left: 0;
+  top: 15.5px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #c95c73;
 }
 
 .timer_date {
-  display: inline-block
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 550;
+  font-size: 24px;
+  line-height: 40px;
+  margin-right: 48px;
+  white-space: nowrap;
 }
 
 .timer_text {
-  display: inline-block
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* ABOUT END */
