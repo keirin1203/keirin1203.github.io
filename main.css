@@ -13,7 +13,7 @@ body {
 }
 
 .section {
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 /* TOP START */
@@ -214,3 +214,129 @@ body {
   color: white;
 }
 /* OUR_WORKS END */
+
+/* WHAT_WE_CAN START */
+
+.what_we_can {
+  background-color: #262020;
+  padding: 132px 0 140px
+}
+
+.what_we_can h2 {
+  font-family: 'Artegra Sans Extended';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 44px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-right: 78px;
+  margin-left: 10px;
+
+/* заголовок */
+
+color: #E9E9E9;
+
+}
+
+.what_we_can_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.what_we_can_left img {
+  padding-top: 87px;
+  margin-left: -81px;
+  vertical-align: middle;
+}
+
+.list_item {
+  display: flex;
+  margin-bottom: 62px;
+}
+
+.list_item_count {
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  opacity: 0.5;
+
+  padding-right: 34px;
+}
+
+.list_item_text {
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.9);
+}
+/* WHAT_WE_CAN END */
+
+/* OUR_PROJECTS START */
+
+.our_projects {
+  padding: 142px 0;
+}
+
+.our_projects h2 {
+  font-family: 'Artegra Sans Extended';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 44px;
+text-transform: uppercase;
+
+color: #E9E9E9;
+}
+
+.projects_list {
+  margin-top: 37px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects_list_item {
+  background-color: #262020;
+  display: block;
+  padding-left: 24px;
+  padding-right: 31px;
+  padding-bottom: 35px;
+  padding-top: 25px;
+  width: calc(33% - 83px);
+}
+
+.project_markup {
+  margin: 10px 0 28px;
+  width: 168px;
+  height: 2px;
+  background: linear-gradient(90deg,#d40431,#920e4b);
+  border-radius: 5px;
+}
+
+.project_name {
+  font-family: 'Artegra Sans Extended';
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+
+.project_description {
+  font-family: 'HelveticaNeueCyr';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* or 133% */
+
+
+color: rgba(255, 255, 255, 0.6);
+
+}
+
+/* OUR_PROJECTS END */
