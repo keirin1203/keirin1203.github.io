@@ -605,19 +605,28 @@ z-index: 9;
   }
 
   .contacts {
-    margin-top: 170px;
+    margin-top: 190px;
     padding-left: 20px;
     padding-right: 24px;
+    
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .contacts_block {
+    order: 1;
+    width: 39%;
   }
 
   .contacts .contacts_block:last-child {
     margin-top: 0;
-    width: 80px;
     margin-left: 43px;
   }
 
   .info {
     margin-top: 50px;
+    order: 3;
+    width: 100%;
   }
 
   .contacts_block {
