@@ -280,6 +280,12 @@ color: #E9E9E9;
   padding: 142px 0;
 }
 
+.our_projects .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .our_projects h2 {
   font-family: 'Artegra Sans Extended';
 font-style: normal;
@@ -289,12 +295,53 @@ line-height: 44px;
 text-transform: uppercase;
 
 color: #E9E9E9;
+
+order: 1;
+}
+
+.projects_all {
+  order: 2;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.projects_all span {
+  font-family: 'Artegra Sans Extended';
+font-size: 24px;
+line-height: 28px;
+
+color: #E9E9E9;
+z-index: 999;
+}
+
+.projects_all:hover .projects_ellipse {
+  background: linear-gradient(180deg, #D40431 0%, rgba(212, 4, 104, 0.73) 100%);
+  box-shadow: 0px 4px 36px 0px rgba(255, 60, 110, 0.54);
+
+}
+
+.projects_all:active .projects_ellipse {
+  background: rgba(181, 59, 86, 1);
+
+}
+
+.projects_ellipse {
+  border: 0.1875em solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  margin-left: -11px;
+  margin-right: -22px;
+  transition: all .4s;
 }
 
 .projects_list {
   margin-top: 37px;
   display: flex;
   justify-content: space-between;
+  order: 3;
 }
 
 .projects_list_item {
@@ -488,6 +535,16 @@ color: #FFFFFF;
     z-index: 9;
 }
 
+.form_button:hover {
+  background-color: #262020;
+  border: 1px solid #262020;
+}
+
+.form_button:active {
+  background-color: #191616;
+  border: 1px solid #191616;
+}
+
 .form_title {
   font-family: 'Artegra Sans Extended';
 font-style: normal;
@@ -628,8 +685,8 @@ z-index: 9;
     width: 100%;
   }
 
-  .contacts_block {
-    
+  .projects_all {
+    order: 999;
   }
 }
 
