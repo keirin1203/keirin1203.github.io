@@ -1,4 +1,3 @@
-
 body {
   background-color: #1F1919;
   font-family: HelveticaNeueCyr;
@@ -110,7 +109,7 @@ body {
     top: 0;
     height: 100%;
     width: 100%;
-    background: url(  media/about.svg) center;
+    background: url(../media/about.svg) center;
     background-size: cover;
 }
 
