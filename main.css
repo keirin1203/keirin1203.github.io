@@ -1,3 +1,4 @@
+
 body {
   background-color: #1F1919;
   font-family: HelveticaNeueCyr;
@@ -203,6 +204,7 @@ body {
 }
 
 .our_works_right {
+  margin-left: 20px;
   max-width: 348.5px;
 }
 
@@ -503,3 +505,123 @@ position: relative;
 z-index: 9;
 }
 /* CONNECT_US END */
+
+.logo_mobile {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  max-height: 74px;
+  margin: 0px 0px 37px;
+  display: none;
+}
+
+.logo_mobile .top_logo {
+  width: 73.5px;
+  display: inline-block;
+}
+
+.logo_mobile .top_logo_text {
+  width: 137px;
+  margin-top: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.what_we_can_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 700px){
+  .top_right {
+    display: none;
+  }
+
+  .logo_mobile {
+    display: block;
+  }
+
+  .our_works_wrapper {
+    display: block;
+  }
+
+  .our_works_left {
+    background-color: #1f1919;
+    padding-left: 20px;
+    padding-right: 24px;
+    padding-top: 0px;
+  }
+
+  .what_we_can_wrapper {
+    display: block;
+    padding-left: 20px;
+    padding-right: 24px;
+  }
+
+  .what_we_can_left {
+    display: none;
+  }
+
+  .what_we_can_mobile {
+    
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  .our_projects {
+    padding-left: 20px;
+    padding-right: 24px;
+  }
+
+  .list {
+    padding-top: 0px;
+  }
+
+  .projects_list {
+    display: block;
+    padding-right: 50px;
+  }
+
+  .projects_list_item {
+    width: 100%;
+    margin-bottom: 22px;
+  }
+
+  .contact_us .container {
+    flex-wrap: wrap;
+  }
+
+  .contacts {
+    order: 2;
+  }
+
+  .form {
+    order: 1;
+    padding-left: 20px;
+    padding-right: 24px;
+  }
+
+  .form_title {
+    white-space: normal;
+  }
+
+  .contacts {
+    margin-top: 170px;
+    padding-left: 20px;
+    padding-right: 24px;
+  }
+
+  .contacts .contacts_block:last-child {
+    margin-top: 0;
+    width: 80px;
+    margin-left: 43px;
+  }
+
+  .info {
+    margin-top: 50px;
+  }
+
+  .contacts_block {
+    
+  }
+}
+
